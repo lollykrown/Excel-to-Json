@@ -14,13 +14,13 @@ Apikey.apiKey = process.env.API_KEY
  
 // Uncomment the following line to set a prefix for the API key, e.g. "Token" (defaults to null)
 //Apikey.apiKeyPrefix['Apikey'] = "Token"
- 
-// const api = new CloudmersiveConvertApiClient.ConvertDocumentApi()
+
+// const api = new CloudmersiveConvertApiClient.ConvertDocumentApi() for excel to pdf
 const api = new CloudmersiveConvertApiClient.ConvertDataApi();
 
  var inputFile = Buffer.from(fs.readFileSync('db.xlsx').buffer); // File | Input file to perform the operation on. 
  
-// api.convertDocumentXlsxToPdf(inputFile1, callback);
+// api.convertDocumentXlsxToPdf(inputFile1, callback); for excel to pdf
 
 app.get('/', (req, res) => {
   api.convertDataXlsxToJson(inputFile, function(error, data, response) {
