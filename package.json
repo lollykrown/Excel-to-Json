@@ -1,0 +1,27 @@
+{
+  "name": "excel-to-json",
+  "version": "1.0.0",
+  "description": "A simple app that converts excel files .xlsx to Json using cloudmersive",
+  "main": "app.js",
+  "scripts": {
+    "start": "node app.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lollykrown/Excel-to-Json.git"
+  },
+  "author": "Kayode Agboola",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lollykrown/Excel-to-Json/issues"
+  },
+  "homepage": "https://github.com/lollykrown/Excel-to-Json#readme",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cloudmersive-convert-api-client": "^2.4.9",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "morgan": "^1.10.0"
+  }
+}
