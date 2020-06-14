@@ -1,0 +1,32 @@
+[
+    {
+        "Name": "Tony",
+        "Occupation": "Banker ",
+        "Email": "t@t.com"
+    },
+    {
+        "Name": "Seyi",
+        "Occupation": "Doctor",
+        "Email": "s@s.com"
+    },
+    {
+        "Name": "Anslem",
+        "Occupation": "Engineer",
+        "Email": "a@a.com"
+    },
+    {
+        "Name": "Wale",
+        "Occupation": "Stylist",
+        "Email": "w@w.com"
+    },
+    {
+        "Name": "Chima",
+        "Occupation": "HSE",
+        "Email": "c@c.com"
+    },
+    {
+        "Name": "Dayo",
+        "Occupation": "Devops",
+        "Email": "d@d.com"
+    }
+]

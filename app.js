@@ -37,8 +37,11 @@ app.get('/', (req, res) => {
       //for(let i of data) {
         console.log(data)
       //}
-     res.json(data)
-    }
+    fs.writeFile('test.json', JSON.stringify(data, 0, 4), function (err) {
+    })
+
+     res.send(JSON.stringify(data, null, 4))
+  }
   });
 });
 
